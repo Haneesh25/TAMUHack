@@ -1,0 +1,20 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    /* Add some space between the widgets */
+    padding: 16px;
+}
+
+
+/* Media query for responsiveness */
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        grid-template-columns: 1fr;
+        /* Stack widgets on smaller screens */
+    }
+}
+
+
+/* Additional global styles, if needed */
