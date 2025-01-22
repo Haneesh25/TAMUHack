@@ -21,8 +21,8 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: "GitHub Actions"
-          author_email: "actions@github.com"
+          author_name: "Haneesh25"
+          author_email: "shaneesht04@gmail.com"
           message: "Daily contribution"
           # Set the files to commit - replace this with your own file paths
           add: "README.md"
